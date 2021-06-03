@@ -10,7 +10,7 @@ Gulp task to optimise images quality
 If you don't have Gulp CLI in your OS, run the command from terminal:
 
 ```shell
-$ npm install gulp-cli --global
+npm install gulp-cli --global
 ```
 
 ### Install all npm modules
@@ -18,13 +18,13 @@ $ npm install gulp-cli --global
 NPM:
 
 ```shell
-$ npm install --save-dev
+npm install --save-dev
 ```
 
 YARN:
 
 ```shell
-$ yarn install --dev
+yarn install --dev
 ```
 
 ### Add your images
@@ -34,7 +34,7 @@ Add your not optimized images to the directory `src/`
 ### Run Gulp task
 
 ```shell
-$ gulp
+gulp
 ```
 
 ### Clean BUILD
@@ -42,5 +42,5 @@ $ gulp
 If you need to remove built images, run the command:
 
 ```shell
-$ gulp clean
+gulp clean
 ```
